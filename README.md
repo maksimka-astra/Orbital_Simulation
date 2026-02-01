@@ -1,6 +1,6 @@
 # Orbital_Simulation
 
-This repository contains the Python code for an IB Mathematics: Analysis and Approaches Internal Assessment.  
+This repository contains the Python code for an IB Mathematics Internal Assessment.  
 It simulates the motion of Earth around the Sun to study the accuracy and stability of numerical integration methods.
 
 ## Overview
