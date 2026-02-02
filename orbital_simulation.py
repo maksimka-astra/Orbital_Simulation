@@ -112,14 +112,14 @@ for n in range(steps):
 final_abs_error_euler = absolute_radius_error_euler[-1]
 final_abs_error_rk4 = absolute_radius_error_rk4[-1]
 
-print(f"Euler absolute radius erroe: {final_abs_error_euler:.3e} AU")
-print(f"RK4 absolute radius erroe: {final_abs_error_rk4:.3e} AU")
+print(f"Euler absolute radius error: {final_abs_error_euler:.3e} AU")
+print(f"RK4 absolute radius error: {final_abs_error_rk4:.3e} AU")
 
 final_relative_error_euler = radius_error_euler[-1]
 final_relative_error_rk4 = radius_error_rk4[-1]
 
-print(f"Euler relative radius erroe:   {final_relative_error_euler:.3e}")
-print(f"RK4 relative radius erroe:     {final_relative_error_rk4:.3e}")
+print(f"Euler relative radius error:   {final_relative_error_euler:.3e}")
+print(f"RK4 relative radius error:     {final_relative_error_rk4:.3e}")
 print(f"Difference in orders of magnitude: {np.log10(final_relative_error_euler / final_relative_error_rk4):.1f}")
 print(f"RK4 is {final_relative_error_euler / final_relative_error_rk4:.1e} times more accurate")
 
